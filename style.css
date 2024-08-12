@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bebas+Neue&display=swap');
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+}
+
+
+
+header {
+    background-color: black;
+    padding: 20px;
+}
+
+header > h1 {
+    font-size: larger;
+    color: rgba(255, 255, 255, 0.852);
+
+}
+
+.Inicio {
+    background-image: linear-gradient(rgb(121, 5, 5), rgb(55, 0, 0), rgb(52, 0, 0));
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 2px 6px 10px black;
+    margin: 0%;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.Inicio > h1 {
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 3em;
+    padding: 10px;
+    margin-right: 30px;
+    text-shadow: 2px 2px 2px black;
+}
+
+.deadpool {
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.791);
+    width: 500px;
+    height: 300px;
+}
+
+.deadpool > img {
+    width: 500px;
+    height: 300px;
+}
+
+.deadpool:hover{
+    transform: scale(105%);
+    transition: 1s;
+    filter: grayscale(50%);
+
+}
+
+.container  {
+    background-color: black;
+}
+
+.filmes__titulo > h1 {
+    color:rgba(255, 255, 255, 0.852);
+    font-size: larger;
+    padding: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-shadow: 2px 2px 1px black;
+}
+
+.container__filmes {
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    height: 700px;
+    padding-top: 40px;
+    box-shadow: 3px 3px black;
+    border-radius: 10px 10px;
+}
+
+.container__filmes > a > img {
+    width: 200px;
+    height: 270px;
+}
+
+.container__filmes > a > img:hover {
+    transform: scale(105%);
+    filter: grayscale(70%);
+    transition: 1s;
+}
+
+.fundo {
+    background-image: url(netflix-1\ \(1\).jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
