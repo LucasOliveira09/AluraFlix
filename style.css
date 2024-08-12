@@ -26,15 +26,18 @@ header {
     align-items: center;
     padding: 3px;
     border-radius: 20px;
+    justify-content: space-between;
 }
 
 .pesquisar__bottom {
-    margin-left: 5px;
+    height: 2.2vh;
+    margin-right: 15px;
 }
 
 .pesquisa__input {
     height: 3.5vh;
     border-radius: 20px;
+    width: 19vw;
 }
 
 header > h1 {
