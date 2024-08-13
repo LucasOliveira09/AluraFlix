@@ -276,11 +276,11 @@ footer {
     justify-content: center;
 }
 
-footer> a {
+footer > a {
     text-decoration: none;
 }
 
 footer > a:hover {
-    color: #390000;
+    color: var(--color6);
     transition: 1s;
 }
