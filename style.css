@@ -68,7 +68,6 @@ header > h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0%;
     border-radius: 0px 0px 20px 20px;
     overflow: hidden;
 }
@@ -330,7 +329,7 @@ footer > a:hover {
     .Inicio {
        display: flex;
        flex-wrap: wrap;
-        margin: 0 auto;
+       justify-content: center;
     
     }
 
@@ -348,10 +347,11 @@ footer > a:hover {
     .container__filmes {
         display: flex;
         overflow: scroll;
+        width: 100vw;
     }
 
     .container__filmes > section {
-        flex: 1 0 100px;
+        flex: 1 0 200px;
         margin: 0 10px;
     }
 }
