@@ -63,6 +63,10 @@ header > h1 {
 
 /*---------------------------------*/
 
+.fundo {
+    overflow: hidden;
+}
+
 .Inicio {
     height: 59vh;
     display: flex;
@@ -143,6 +147,7 @@ header > h1 {
     background-image: url(Fotos/netflix-library-1280x720.webp);
     background-size: cover;
     background-attachment: fixed;
+    
 }
 
 .filmes__titulo > h1 {
@@ -287,12 +292,12 @@ footer > a:hover {
 @media only screen and (max-width: 500px)  {
 
     body, html {
-        overflow: hidden;
+        
     }
 
     ::-webkit-scrollbar {
-        height: 80%;
-        width: 80%;
+        height: 100%;
+        width: 100%;
     }
     
 
@@ -306,6 +311,10 @@ footer > a:hover {
         color: white;
         font-family: "Roboto Condensed", sans-serif;
 
+    }
+
+    .fundo {
+        overflow: hidden;
     }
 
     .li__item{
@@ -332,12 +341,12 @@ footer > a:hover {
     
     .Inicio {
        display: flex;
-       flex-wrap: wrap;
+       margin-left: 5vw;
        
     }
 
     .Inicio > section {
-        flex: 1 1 ;
+        flex: 1 1;
 
     }
 
@@ -353,7 +362,11 @@ footer > a:hover {
     }
 
     .container__filmes > section {
-        flex: 1 0 200px;
+        flex: 1 0 150px;
         margin: 0 10px;
+    }
+    
+    footer > h1 {
+        font-size: large;
     }
 }
