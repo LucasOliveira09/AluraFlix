@@ -284,3 +284,74 @@ footer > a:hover {
     color: var(--color6);
     transition: 1s;
 }
+
+@media only screen and (max-width: 500px)  {
+
+    ::-webkit-scrollbar {
+        height: 80%;
+        width: 80%;
+    }
+    
+
+    .container__filmes {
+        overflow: scroll;
+    }
+    
+    .conteiner__conteiner > h1 {
+        padding: 20px;
+        padding-top: 30px;
+        color: white;
+        font-family: "Roboto Condensed", sans-serif;
+
+    }
+
+    .li__item{
+        width: 0%;
+    }
+
+    .linha {
+        width: 0%;
+    }
+
+    .redes_sociais > h1 {
+        width: 0%;
+    }
+
+    .redes_sociais {
+        width: 0%;
+    }
+
+    .recomendado {
+        width: 0%;
+        
+    
+    }
+    
+    .Inicio {
+       display: flex;
+       flex-wrap: wrap;
+        margin: 0 auto;
+    
+    }
+
+    .Inicio > section {
+        flex: 1 1 100px;
+
+    }
+
+    .deadpool__legenda > a > img {
+        margin: 0px;
+      
+    }
+
+
+    .container__filmes {
+        display: flex;
+        overflow: scroll;
+    }
+
+    .container__filmes > section {
+        flex: 1 0 100px;
+        margin: 0 10px;
+    }
+}
