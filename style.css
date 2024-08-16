@@ -115,7 +115,7 @@ header > h1 {
     position: absolute;
     bottom: 15%;
     left: 10%;
-    font-size: 100%;
+    font-size: 1.2vw;
     text-shadow: 1px 1px 1px rgb(0, 0, 0);
     font-family: "Roboto Condensed", sans-serif;;
     width: 75%;
@@ -286,6 +286,10 @@ footer > a:hover {
 
 @media only screen and (max-width: 500px)  {
 
+    body, html {
+        overflow: hidden;
+    }
+
     ::-webkit-scrollbar {
         height: 80%;
         width: 80%;
@@ -329,20 +333,18 @@ footer > a:hover {
     .Inicio {
        display: flex;
        flex-wrap: wrap;
-       justify-content: center;
-    
+       
     }
 
     .Inicio > section {
-        flex: 1 1 100px;
+        flex: 1 1 ;
 
     }
 
-    .deadpool__legenda > a > img {
-        margin: 0px;
-      
+    .Inicio > section > p {
+        flex: 1 1;
+        font-size: 1.5vw;
     }
-
 
     .container__filmes {
         display: flex;
