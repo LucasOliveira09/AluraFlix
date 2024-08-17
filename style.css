@@ -289,6 +289,8 @@ footer > a:hover {
     transition: 1s;
 }
 
+/* Configurações de midia queue */
+
 @media(max-width: 500px)  {
 
     body, html {
