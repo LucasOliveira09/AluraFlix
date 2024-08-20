@@ -33,6 +33,26 @@ header {
     align-items: center;
 }
 
+.button_logout {
+    width: 100%;
+    height: 100%;
+}
+
+.button_logout button {
+    margin-left: 20px;
+    width: 80px;
+    height: 30px;
+    background-color: #ffffff5e;
+    color: #ffffff;
+    cursor: pointer;
+} 
+
+.button_logout button:hover {
+    color: #ffffff6e;  
+    border: 2px solid white;
+    transition: all 0.5s;
+} 
+
 .search {
     display: flex;
     width: 23vw;
@@ -121,7 +141,7 @@ header > h1 {
     left: 10%;
     font-size: 1.2vw;
     text-shadow: 1px 1px 1px rgb(0, 0, 0);
-    font-family: "Roboto Condensed", sans-serif;;
+    font-family: "Roboto Condensed", sans-serif;
     width: 75%;
 }
 
