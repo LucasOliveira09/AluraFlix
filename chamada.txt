@@ -1,0 +1,4 @@
+<script src="./assets/js/index.js"></script>
+<button onclick="sair()">Sair</button>
+<h1 id="logado"></h1>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
