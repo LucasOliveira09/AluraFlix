@@ -311,7 +311,7 @@ footer > a:hover {
 
 /* Configurações de midia queue */
 
-@media(max-width: 500px)  {
+@media(max-width: 600px)  {
 
     body, html {
         
@@ -379,7 +379,7 @@ footer > a:hover {
 
     .container__filmes {
         display: flex;
-        overflow: scroll;
+        overflow-x: auto;
         width: 100vw;
     }
 
